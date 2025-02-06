@@ -40,7 +40,7 @@ This project aims to create an e-commerce website that allows customers to brows
 ### Steps to Setup the Project
 1. Clone the repository:
    ```sh
-   git clone [https://github.com/ChanukaRavikantha/Ecommerce-Website-]
+   git clone [https://github.com/cravikantha/Ecommerce-Website-]
    ```
 2. Move the project folder to the `www` directory of WAMP or `htdocs` directory of XAMPP.
 3. Start the WAMP/XAMPP server.
