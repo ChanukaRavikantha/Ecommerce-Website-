@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="css/form.css">
+
+         <!-- box icon -->
+           <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+      <!-- fav icon -->
+           <link rel="shortcut icon" href="image/icon.png" type="image/SF-icon">
+</head>
+
+<body>
+    
+    <!-- create new account form -->
+    <div class="NewAcc-form container">
+         
+        <form action="registerHandle.php" method="post"> 
+            
+            <div class="nav container">
+
+                <!-- nav icon -->
+                <div class="nav-icons">
+                    <a href="indax.html"><i class='bx bx-arrow-back'></i></a>
+                </div>
+                
+                <!-- logo -->
+                <div>
+                    <a href="indax.html" class="logo" >Back To Home<span></span></a>
+                </div>
+        
+            </div>
+
+        <h2>Create New Account</h2>
+
+        <input type="text" name="txtName" id="" placeholder="Full name" required>
+        
+        <input type="email" name="txtEmail" id="" placeholder="Your Email..." required>
+
+        <input type="text" name="txtAddress" id="" placeholder="Address" required>
+
+        <input type="number" name="txtContactNo" id="" placeholder="Phone Number" required>
+        
+        <input type="password" name="txtPassword" id="password" placeholder="Password" required>
+        
+        <input type="password" name="" id="Cpassword" placeholder="Confrim Password" required>
+        
+      
+
+        
+        
+        <script>
+            function checkPassword(){
+                let pw = document.getElementById("password").value;
+                let compw = document.getElementById("Cpassword").value;
+                if(pw != compw){
+                    alert("Password and Confirm Password should same");
+                    event.preventDefault();
+                }
+            }
+        </script>
+
+
+        <!------------------------ Privacy Policy --------------------------->
+        <p><h3>Privacy Policy</h3><textarea>  Welcome to SUJITH FURNITURE. We respect your privacy and are committed to protecting your personal information. This privacy policy outlines our practices concerning the collection, use, and sharing of your personal data through the use of our website.
+            
+            1. Information We Collect
+            
+            Contact details such as name, email address, and telephone number
+            Delivery address for order fulfillment
+            Payment information
+            Browsing history and preferences on our website
+            
+            2. How We Collect Your Information
+            
+            Directly from you when you make a purchase or sign up for our newsletter
+            Automatically as you navigate through the site (ex:- cookies)
+            
+            3. Use of Your Information
+            
+            To process your orders and manage your account
+            To communicate with you about our products and services
+            To improve our website and personalize your experience
+            
+            4. Sharing Your Information We do not sell, rent, or otherwise share your personal information with third parties for marketing purposes. We may disclose your personal information if required by law or to protect the rights and safety of SUJITH FURNITURE and our customers.
+            
+            5. Your Rights You have the right to access, correct, or delete your personal information held by us. If you wish to exercise these rights, please contact us (Contact information is available on the website).
+            
+            6. Changes to This Privacy Policy We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page.
+            
+            7. Contact Us If you have any questions about this privacy policy, please contact us (Contact information is available on the website).
+
+            (Last updated: 2024.03.26)
+        
+              THANK YOU.</textarea></h3></p>
+        
+        <label for="checkbox">Agree to Privacy Policy
+        <input type="checkbox" name="" id=""   required></label>
+
+        <input type="submit" name="btnRegister" value="Create Account" class="btn">
+
+
+         <!-- copyright -->
+        <div class="copyright">
+            <p>&#169; All Right Reserved</p>
+        </div>
+       </form>
+   </div>
+
+
+
+</body>
+</html>
