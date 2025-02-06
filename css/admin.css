@@ -1,0 +1,223 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+*{
+    font-family: "Big Shoulders Display", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* declaring same colour variable */
+:root{
+    --main-color: #713f1b;
+    --light-color: #936853;
+    --bg-color: #fff;
+    --text-color: #2e2e2e;
+    --hover--color: #c98225;
+
+    --clr-primary: #7380ec;
+  --clr-danger: #ff7782;
+  --clr-success: #41f1b6;
+  --clr-white: #fff;
+  --clr-info-dark: #7d8da1;
+  --clr-info-light: #dce1eb;
+  --clr-dark: #363949;
+  --clr-warnig: #ff4edc;
+  --clr-light: rgba(132, 139, 200, 0.18);
+
+  --clr-dark-variant: #677483;
+  --clr-color-background: #f6f6f9;
+
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-1: 1.2rem;
+  --box-shadow: 0 2rem 3rem var(--clr-light);
+}
+
+/* background,img,section and text colour in body */
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+    width: 100%;
+}
+
+/*------- for logo (sujith furniture)-------------- */
+.logo{
+    font-size: 2.0rem;
+    color:  var(--main-color);
+    margin: 0px auto 0px 24px;
+    font-weight: 1000;
+} 
+.logo span {
+    color: var(--main-color);
+}
+
+ /* ---------------------Sidebar-------------------------*/
+
+ aside .sidebar{
+    background: var(--bg-color);
+    display: flex;
+    height: 60px;
+    position: relative;
+    top: 1rem;
+   }
+  
+
+   aside h3{
+    font-weight: 700;
+    size: 2rem;
+   }
+  
+   aside .sidebar a{
+    display: flex;
+    color: var(--main-color);
+    margin-left: 3rem;
+    gap: 1rem;
+    align-items: center;
+    height: 3.3rem;
+    transition: all .1s ease;
+   }
+    
+   aside .sidebar a:hover {
+    margin-left: 2.0rem;
+   }
+  
+   aside .sidebar a span.msg_count{
+     background-color: var(--clr-danger);
+     color: var(--clr-white);
+     padding: 2px 5px;
+     font-size: 11px;
+     border-radius: var(--border-radius-1);
+   }
+
+  
+
+       #cart table{
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        white-space: nowrap;
+        margin-left: 35px;
+    }
+    
+    #cart table img{
+        width: 100px;
+    }
+    
+    #cart table td:nth-child(1){
+        width: 150px;
+        text-align: center;
+        font-size: 15.5px;
+    }
+    
+    #cart table td:nth-child(2){
+        width: 150px;
+        text-align: center;
+        font-size: 15.5px;
+        font-weight: 600;
+    }
+    
+    #cart table td:nth-child(3){
+        width: 250px;
+        text-align: center;
+        font-size: 15.5px;
+        font-weight: 600;
+    }
+    
+    #cart table td:nth-child(4),
+    #cart table td:nth-child(5),
+    #cart table td:nth-child(6){
+        width: 100px;
+        text-align: center;
+        font-size: 15.5px;
+        font-weight: 600;
+    }
+    
+    #cart table td:nth-child(6){
+        color: #ff0000;
+        font-weight: 600;
+    }
+    
+    #cart table tr:nth-child(1){
+        border: 1px solid #c7c7c7;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    
+    #cart table tr:nth-child(2),
+    #cart table tr:nth-child(3),
+    #cart table tr:nth-child(4){
+        border: 1px solid #c7c7c7;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+    
+    #cart table thead td{
+        font-weight: 700;
+        font-size: 13px;
+        padding: 18px 0;
+    }
+    
+    #cart table tbody tr td{
+        padding-top: 15px;
+    }
+    
+    #cart table tbody td{
+        font-size: 13px;
+    }
+    
+    #cart h2{
+        color: #000000;
+        font-size: 50px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    } 
+    
+    .recent_order{
+      margin-top: 2rem;
+  }
+  
+  .recent_order h2{
+      color: #000000;
+      font-size: 50px;
+      padding-left: 40px;
+      padding-bottom: 20px;
+  }
+  
+  .recent_order h2{
+      margin-bottom: 0.8rem;
+  }
+  
+  .recent_order table{
+      width: 100%;
+      text-align: center;
+  }
+  
+  .recent_order table:hover{
+      box-shadow: none;
+  }
+  
+  .recent_order table tbody td{
+      height: 3.8rem;
+  }
+  
+  .recent_order table tbody tr:last-child td{
+      border: none;
+  }
+  
+  .recent_order a{
+      text-align: center;
+      display: block;
+      margin: 1rem;
+  }

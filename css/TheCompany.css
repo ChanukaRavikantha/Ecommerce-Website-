@@ -1,0 +1,119 @@
+/*------------------------------ google fonts------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+*{
+    font-family: "Big Shoulders Display", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+/*----------------------- declaring same colour variable-------------------- */
+:root{
+    --main-color: #713f1b;
+    --light-color: #936853;
+    --bg-color: #fff;
+    --text-color: #2e2e2e;
+    --hover--color: #c98225;
+}
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+/*-------------------------nav bar ----------------------------------------*/
+.nav{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+/*---- for logo (Back To home)----- */
+.logo{
+    font-size: 1.5rem;
+    color:  var(--main-color);
+    margin: 0px auto 0px 24px;
+    font-weight: 1000;
+} 
+.logo span {
+    color: var(--main-color);
+}
+
+/*---- Nav-icons (back arrow)----- */
+
+.nav-icons .bx{
+    font-size: 1.0rem;
+    color: var(--bg-color);
+    padding: 10px;
+    background: var(--main-color);
+    border-radius: 0.5rem;
+}
+
+
+.AboutUs{
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(225, 225, 225, 0.74); 
+    backdrop-filter: blur(4.5px); 
+    z-index: 106; 
+}
+
+.AboutUs form{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    row-gap: 1rem; 
+    padding: 10px; 
+}
+
+/* ------ for (Sujith Furniture Manufactures) ------ */
+.AboutUs form h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    color: var(--main-color);
+}
+.AboutUs form h4{
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.AboutUs form h5{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    display: bl;
+}
+.AboutUs form h2{
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: var(--main-color);
+}
+.AboutUs form h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--main-color);
+}
+.AboutUs form p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-color);
+    width: 100%;
+    display: block;
+    text-align: justify;
+}
+.AboutUs form h6{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--main-color);
+}

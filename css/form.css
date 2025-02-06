@@ -1,0 +1,133 @@
+
+/*------------------------------ google fonts------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+*{
+    font-family: "Big Shoulders Display", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+/*----------------------- declaring same colour variable-------------------- */
+:root{
+    --main-color: #713f1b;
+    --light-color: #936853;
+    --bg-color: #fff;
+    --text-color: #2e2e2e;
+    --hover--color: #c98225;
+}
+
+/*-------------------------nav bar ----------------------------------------*/
+.nav{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+}
+
+/*---- for logo (Back To home)----- */
+.logo{
+    font-size: 1.5rem;
+    color:  var(--main-color);
+    margin: 0px auto 0px 24px;
+    font-weight: 1000;
+} 
+.logo span {
+    color: var(--main-color);
+}
+
+/*---- Nav-icons (back arrow)----- */
+
+.nav-icons .bx{
+    font-size: 1.0rem;
+    color: var(--bg-color);
+    padding: 10px;
+    background: var(--main-color);
+    border-radius: 0.5rem;
+}
+
+/* ------------------------------------ form ------------------------------------ */
+.NewAcc-form{
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: rgba(225, 225, 225, 0.74); 
+    backdrop-filter: blur(4.5px); 
+    z-index: 106; 
+}
+
+.NewAcc-form form{
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    row-gap: 1rem; 
+    padding: 10px; 
+}
+
+/* ------Create New Account------ */
+.NewAcc-form form h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* -------- for inputs --------- */
+.NewAcc-form form input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    padding: 14px;
+    background: var(--bg-color);
+    border: 2px solid var(--main-color);
+    border-radius: 0.5rem;
+}
+
+/* ------ for (Privacy Policy) ------ */
+.NewAcc-form form h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/* ----- for input (placeholder) ---- */
+.NewAcc-form form input::placeholder{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* --------- for butten -------- */
+.NewAcc-form form .btn{
+    border: none;
+    background: var(--main-color);
+    color: #fff;
+}
+.NewAcc-form form .btn:hover{
+    background:var(--hover--color);
+}
+
+/* ----- for text area  ----- */
+.NewAcc-form textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.0rem;
+    padding: 50px;
+    background: var(--bg-color);
+    border: 2px solid var(--main-color);
+    border-radius: 0.5rem;
+}
+
+/*------ copyrigt ------ */
+.copyright {
+    text-align: center;
+    padding: 40px;
+}
