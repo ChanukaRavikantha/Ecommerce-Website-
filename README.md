@@ -63,13 +63,3 @@ This project aims to create an e-commerce website that allows customers to brows
 - Integrating third-party payment gateways such as PayPal or Stripe
 - Enhancing UI/UX with responsive design improvements
 
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit (`git commit -m "Add new feature"`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
-
-## License
-This project is open-source and available under the [MIT License](LICENSE).
